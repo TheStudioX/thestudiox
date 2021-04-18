@@ -5,10 +5,6 @@ import client3 from './img/clients/client-3.png';
 import client4 from './img/clients/client-4.png';
 import client5 from './img/clients/client-5.png';
 import client6 from './img/clients/client-6.png';
-import team1 from './img/team/team-1.jpg';
-import team2 from './img/team/team-2.jpg';
-import team3 from './img/team/team-3.jpg';
-import team4 from './img/team/team-4.jpg';
 import about from './img/about.jpg';
 import './vendor/bootstrap/css/bootstrap.min.css';
 import './vendor/bootstrap-icons/bootstrap-icons.css';
@@ -61,31 +57,13 @@ function App() {
 
           <h1 className="logo"><a href="index.html">The StudioX</a></h1>
 
+
           <nav id="navbar" className="navbar">
             <ul>
               <li><a className="nav-link scrollto active" href="#hero">Home</a></li>
               <li><a className="nav-link scrollto" href="#about">About</a></li>
               <li><a className="nav-link scrollto" href="#services">Services</a></li>
               <li><a className="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-              <li><a className="nav-link scrollto" href="#team">Team</a></li>
-              <li><a className="nav-link scrollto" href="#pricing">Pricing</a></li>
-              <li className="dropdown"><a href="#"><span>Drop Down</span> <i className="bi bi-chevron-down"></i></a>
-                <ul>
-                  <li><a href="#">Drop Down 1</a></li>
-                  <li className="dropdown"><a href="#"><span>Deep Drop Down</span> <i className="bi bi-chevron-right"></i></a>
-                    <ul>
-                      <li><a href="#">Deep Drop Down 1</a></li>
-                      <li><a href="#">Deep Drop Down 2</a></li>
-                      <li><a href="#">Deep Drop Down 3</a></li>
-                      <li><a href="#">Deep Drop Down 4</a></li>
-                      <li><a href="#">Deep Drop Down 5</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#">Drop Down 2</a></li>
-                  <li><a href="#">Drop Down 3</a></li>
-                  <li><a href="#">Drop Down 4</a></li>
-                </ul>
-              </li>
               <li><a className="nav-link scrollto" href="#contact">Contact</a></li>
             </ul>
             <i className="bi bi-list mobile-nav-toggle"></i>
@@ -103,39 +81,6 @@ function App() {
       </section>
 
       <main id="main">
-        <section id="clients" className="clients section-bg">
-          <div className="container">
-
-            <div className="row">
-
-              <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img src={client1} className="img-fluid" alt=""/>
-              </div>
-
-              <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img src={client2} className="img-fluid" alt=""/>
-              </div>
-
-              <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img src={client3} className="img-fluid" alt=""/>
-              </div>
-
-              <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img src={client4} className="img-fluid" alt=""/>
-              </div>
-
-              <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img src={client5} className="img-fluid" alt=""/>
-              </div>
-
-              <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img src={client6} className="img-fluid" alt=""/>
-              </div>
-
-            </div>
-
-          </div>
-        </section>
 
         <section id="about" className="about">
           <div className="container">
@@ -279,177 +224,6 @@ function App() {
               <h3>Call To Action</h3>
               <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               <a className="cta-btn" href="#">Call To Action</a>
-            </div>
-
-          </div>
-        </section>
-
-        <section id="team" className="team section-bg">
-          <div className="container">
-
-            <div className="section-title">
-              <h2>Team</h2>
-              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-            </div>
-
-            <div className="row">
-
-              <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
-                <div className="member">
-                  <div className="member-img">
-                    <img src={team1} className="img-fluid" alt=""/>
-                    <div className="social">
-                      <a href=""><i className="bi bi-twitter"></i></a>
-                      <a href=""><i className="bi bi-facebook"></i></a>
-                      <a href=""><i className="bi bi-instagram"></i></a>
-                      <a href=""><i className="bi bi-linkedin"></i></a>
-                    </div>
-                  </div>
-                  <div className="member-info">
-                    <h4>Walter White</h4>
-                    <span>Chief Executive Officer</span>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
-                <div className="member">
-                  <div className="member-img">
-                    <img src={team2} className="img-fluid" alt=""/>
-                    <div className="social">
-                      <a href=""><i className="bi bi-twitter"></i></a>
-                      <a href=""><i className="bi bi-facebook"></i></a>
-                      <a href=""><i className="bi bi-instagram"></i></a>
-                      <a href=""><i className="bi bi-linkedin"></i></a>
-                    </div>
-                  </div>
-                  <div className="member-info">
-                    <h4>Sarah Jhonson</h4>
-                    <span>Product Manager</span>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
-                <div className="member">
-                  <div className="member-img">
-                    <img src={team3} className="img-fluid" alt=""/>
-                    <div className="social">
-                      <a href=""><i className="bi bi-twitter"></i></a>
-                      <a href=""><i className="bi bi-facebook"></i></a>
-                      <a href=""><i className="bi bi-instagram"></i></a>
-                      <a href=""><i className="bi bi-linkedin"></i></a>
-                    </div>
-                  </div>
-                  <div className="member-info">
-                    <h4>William Anderson</h4>
-                    <span>CTO</span>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
-                <div className="member">
-                  <div className="member-img">
-                    <img src={team4} className="img-fluid" alt=""/>
-                    <div className="social">
-                      <a href=""><i className="bi bi-twitter"></i></a>
-                      <a href=""><i className="bi bi-facebook"></i></a>
-                      <a href=""><i className="bi bi-instagram"></i></a>
-                      <a href=""><i className="bi bi-linkedin"></i></a>
-                    </div>
-                  </div>
-                  <div className="member-info">
-                    <h4>Amanda Jepson</h4>
-                    <span>Accountant</span>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-        </section>
-
-        <section id="pricing" className="pricing">
-          <div className="container">
-
-            <div className="section-title">
-              <h2>Pricing</h2>
-              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-            </div>
-
-            <div className="row">
-
-              <div className="col-lg-3 col-md-6">
-                <div className="box">
-                  <h3>Free</h3>
-                  <h4><sup>$</sup>0<span> / month</span></h4>
-                  <ul>
-                    <li>Aida dere</li>
-                    <li>Nec feugiat nisl</li>
-                    <li>Nulla at volutpat dola</li>
-                    <li className="na">Pharetra massa</li>
-                    <li className="na">Massa ultricies mi</li>
-                  </ul>
-                  <div className="btn-wrap">
-                    <a href="#" className="btn-buy">Buy Now</a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-6 mt-4 mt-md-0">
-                <div className="box featured">
-                  <h3>Business</h3>
-                  <h4><sup>$</sup>19<span> / month</span></h4>
-                  <ul>
-                    <li>Aida dere</li>
-                    <li>Nec feugiat nisl</li>
-                    <li>Nulla at volutpat dola</li>
-                    <li>Pharetra massa</li>
-                    <li className="na">Massa ultricies mi</li>
-                  </ul>
-                  <div className="btn-wrap">
-                    <a href="#" className="btn-buy">Buy Now</a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-6 mt-4 mt-lg-0">
-                <div className="box">
-                  <h3>Developer</h3>
-                  <h4><sup>$</sup>29<span> / month</span></h4>
-                  <ul>
-                    <li>Aida dere</li>
-                    <li>Nec feugiat nisl</li>
-                    <li>Nulla at volutpat dola</li>
-                    <li>Pharetra massa</li>
-                    <li>Massa ultricies mi</li>
-                  </ul>
-                  <div className="btn-wrap">
-                    <a href="#" className="btn-buy">Buy Now</a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-6 mt-4 mt-lg-0">
-                <div className="box">
-                  <span className="advanced">Advanced</span>
-                  <h3>Ultimate</h3>
-                  <h4><sup>$</sup>49<span> / month</span></h4>
-                  <ul>
-                    <li>Aida dere</li>
-                    <li>Nec feugiat nisl</li>
-                    <li>Nulla at volutpat dola</li>
-                    <li>Pharetra massa</li>
-                    <li>Massa ultricies mi</li>
-                  </ul>
-                  <div className="btn-wrap">
-                    <a href="#" className="btn-buy">Buy Now</a>
-                  </div>
-                </div>
-              </div>
-
             </div>
 
           </div>
