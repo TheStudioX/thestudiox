@@ -15,7 +15,7 @@ import './vendor/bootstrap-icons/bootstrap-icons.css';
 import './vendor/boxicons/css/boxicons.min.css';
 import './vendor/glightbox/css/glightbox.min.css';
 import './vendor/swiper/swiper-bundle.min.css';
-
+import './js/main.js';
 import './App.css';
 
 function App() {
