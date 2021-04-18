@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/thestudiox/static/css/main.f8b31831.chunk.css",
-    "main.js": "/thestudiox/static/js/main.2582a870.chunk.js",
-    "main.js.map": "/thestudiox/static/js/main.2582a870.chunk.js.map",
-    "runtime-main.js": "/thestudiox/static/js/runtime-main.4cec3e67.js",
-    "runtime-main.js.map": "/thestudiox/static/js/runtime-main.4cec3e67.js.map",
-    "static/js/2.ede3c02a.chunk.js": "/thestudiox/static/js/2.ede3c02a.chunk.js",
-    "static/js/2.ede3c02a.chunk.js.map": "/thestudiox/static/js/2.ede3c02a.chunk.js.map",
-    "static/js/3.e0e12013.chunk.js": "/thestudiox/static/js/3.e0e12013.chunk.js",
-    "static/js/3.e0e12013.chunk.js.map": "/thestudiox/static/js/3.e0e12013.chunk.js.map",
+    "main.js": "/thestudiox/static/js/main.481dd9cc.chunk.js",
+    "main.js.map": "/thestudiox/static/js/main.481dd9cc.chunk.js.map",
+    "runtime-main.js": "/thestudiox/static/js/runtime-main.c3c39da7.js",
+    "runtime-main.js.map": "/thestudiox/static/js/runtime-main.c3c39da7.js.map",
+    "static/js/2.aaa5b0ca.chunk.js": "/thestudiox/static/js/2.aaa5b0ca.chunk.js",
+    "static/js/2.aaa5b0ca.chunk.js.map": "/thestudiox/static/js/2.aaa5b0ca.chunk.js.map",
+    "static/js/3.5709e7a8.chunk.js": "/thestudiox/static/js/3.5709e7a8.chunk.js",
+    "static/js/3.5709e7a8.chunk.js.map": "/thestudiox/static/js/3.5709e7a8.chunk.js.map",
     "index.html": "/thestudiox/index.html",
     "static/css/main.f8b31831.chunk.css.map": "/thestudiox/static/css/main.f8b31831.chunk.css.map",
-    "static/js/2.ede3c02a.chunk.js.LICENSE.txt": "/thestudiox/static/js/2.ede3c02a.chunk.js.LICENSE.txt",
+    "static/js/2.aaa5b0ca.chunk.js.LICENSE.txt": "/thestudiox/static/js/2.aaa5b0ca.chunk.js.LICENSE.txt",
     "static/media/about.564e5157.jpg": "/thestudiox/static/media/about.564e5157.jpg",
     "static/media/bootstrap-icons.css": "/thestudiox/static/media/bootstrap-icons.cc252f2c.woff",
     "static/media/boxicons.min.css": "/thestudiox/static/media/boxicons.cbd149c5.ttf",
@@ -22,9 +22,9 @@
     "static/media/team-4.525dee06.jpg": "/thestudiox/static/media/team-4.525dee06.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4cec3e67.js",
-    "static/js/2.ede3c02a.chunk.js",
+    "static/js/runtime-main.c3c39da7.js",
+    "static/js/2.aaa5b0ca.chunk.js",
     "static/css/main.f8b31831.chunk.css",
-    "static/js/main.2582a870.chunk.js"
+    "static/js/main.481dd9cc.chunk.js"
   ]
 }
