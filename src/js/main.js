@@ -12,8 +12,6 @@ import GLightbox from 'glightbox';
 
 (function() {
   "use strict";
-  
-  console.log('hi')
   /**
    * Easy selector helper function
    */
@@ -92,6 +90,7 @@ import GLightbox from 'glightbox';
   if (selectHeader) {
     const headerScrolled = () => {
 
+      console.log(selectHeader)
       if (window.scrollY > 100) {
         selectHeader.classList.add('header-scrolled')
       } else {
